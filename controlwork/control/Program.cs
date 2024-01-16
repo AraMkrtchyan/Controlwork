@@ -19,3 +19,16 @@ void Printarray(int[] col)
         ind++;
     }
 }
+void NewList(int[] arr)
+{
+     int[] list =  arr;
+    for (int i = 0; i <=2; i++)
+    {
+        System.Console.Write(list[i] + " ");
+    }
+}
+int[] spisok = new int[5];
+Array(spisok);
+Printarray(spisok);
+System.Console.WriteLine();
+NewList(spisok);
